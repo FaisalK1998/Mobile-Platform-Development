@@ -1,0 +1,9 @@
+<!-- Faisal Khan
+    S1828698 -->
+<resources>
+    <string name="app_name">Traffic Scotland</string>
+    <string name="app_label">Search</string>
+    <string name="search_hint">Search Me</string>
+    <string name="search_view">Enter Search</string>
+    <string name="current_incidents">Current Incidents</string>
+</resources>

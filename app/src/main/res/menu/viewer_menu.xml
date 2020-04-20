@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Faisal Khan
+    S1828698 -->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/calendarIcon"
+        android:title="Calendar"
+        android:icon = "@drawable/calendaricon"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+
+    <item
+        android:id="@+id/searchIcon"
+        android:title="Search"
+        android:icon = "@drawable/searchicon"
+        app:actionViewClass="android.widget.SearchView"
+        app:showAsAction="ifRoom"
+        >
+
+    </item>
+</menu>

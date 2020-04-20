@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Faisal Khan
+    S1828698-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/descriptionText"
+        android:layout_width="wrap_content"
+        android:layout_height="170dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/colourText"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/startEndDateText"
+        android:layout_width="516dp"
+        android:layout_height="50dp"
+        android:layout_above="@+id/latLonText"
+        android:layout_alignParentStart="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/colourText"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/latLonText"
+        android:layout_width="470dp"
+        android:layout_height="35dp"
+        android:layout_above="@+id/linkText"
+        android:layout_alignEnd="@+id/linkText"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:textColor="@color/colourText"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/linkText"
+        android:layout_width="600dp"
+        android:layout_height="25dp"
+        android:layout_above="@+id/publishDateText"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:autoLink="web"
+        android:includeFontPadding="false"
+        android:linksClickable="true"
+        android:textColor="@color/colourText"
+        android:textColorLink="#2196F3"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/publishDateText"
+        android:layout_width="518dp"
+        android:layout_height="25dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="0dp"
+        android:includeFontPadding="false"
+        android:textColor="@color/colourText"
+        android:textSize="14sp" />
+
+
+</RelativeLayout>
